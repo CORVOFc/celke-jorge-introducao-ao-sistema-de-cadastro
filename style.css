@@ -1,0 +1,98 @@
+body {
+    min-height: 100vh; /* altura mínima da tela */
+    margin: 0; /* remover margem padrão para o degradê preencher toda a tela */
+    background: linear-gradient(to bottom, #f50d0d, #b90f0f, #ae0b0b, #430303);
+    color: #ffffff; /* texto branco */
+    font-family: Arial, sans-serif;
+    padding: 20px; /* adicionar espaçamento interno */
+}
+
+h1 {
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Links em cinza claro, com hover branco */
+a {
+    color: #cccccc; /* cinza claro */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #ffffff; /* branco */
+    text-decoration: underline;
+}
+
+/* Espaçamento entre links */
+a + a {
+    margin-left: 10px;
+}
+
+/* Título em cinza claro com borda inferior branca */
+h1 {
+    color: #cccccc;
+    border-bottom: 2px solid #ffffff;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Separador horizontal estilizado */
+hr {
+    border: 0;
+    border-top: 1px solid #ffffff; /* cinza escuro */
+    margin: 15px 0;
+}
+
+/* Bloco de usuário com fundo cinza escuro e borda arredondada */
+.usuario {
+    background-color: #fffefe; /* cinza escuro */
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+/* Links dentro do bloco usuário */
+.usuario a {
+    display: inline-block;
+    margin-top: 5px;
+    color: #cccccc;
+}
+
+.usuario a:hover {
+    color: #ffffff;
+}
+
+/* Mensagem da sessão com fundo cinza escuro */
+.session-msg {
+    background-color: #333333;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+/* Paginação */
+.pagination {
+    margin-top: 20px;
+}
+
+.pagination a {
+    color: #cccccc;
+    margin: 0 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.pagination a:hover {
+    color: #e6d7d7;
+    text-decoration: underline;
+}
+
+.pagination .current-page {
+    color: #ffffff;
+    font-weight: bold;
+    margin: 0 5px;
+}
